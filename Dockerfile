@@ -1,3 +1,3 @@
-FROM hshar/webapp
-ADD . /var/www/html
+FROM nginx
+COPY static-html-directory /usr/share/nginx/html
 
